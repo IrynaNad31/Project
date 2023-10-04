@@ -6,8 +6,6 @@ WORKDIR $APP_HOME
 
 COPY . .
 
-RUN pip install -r requirements.txt
-
 EXPOSE 5000
 
 CMD ["python", "addressbook.py"]
